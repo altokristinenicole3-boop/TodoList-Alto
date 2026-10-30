@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #000;
+}
+
+.heading-input-section {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.heading-input-section input {
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #999;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  width: 220px;
+}
+
+.add-heading-btn {
+  padding: 6px 18px;
+  background-color: #2e7d32;
+  color: white;
+  border: 1px solid #2e7d32;
+  border-radius: 0 2px 2px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.empty-text {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.list-card {
+  border: 1px solid #666;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.delete-heading-btn {
+  padding: 6px 14px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.add-item-row {
+  display: flex;
+  gap: 0;
+  margin-bottom: 10px;
+}
+
+.add-item-row input {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #999;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  font-size: 14px;
+}
+
+.add-item-btn {
+  padding: 6px 18px;
+  background-color: #2e7d32;
+  color: white;
+  border: 1px solid #2e7d32;
+  border-radius: 0 2px 2px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add_list {
+  margin-top: 10px;
+}
+
+.empty-items {
+  color: #777;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.list-item span {
+  font-size: 14px;
+}
+
+.delete-item-btn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
